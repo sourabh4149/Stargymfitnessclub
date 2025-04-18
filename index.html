@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAR GYM</title>
+    <link 
+     href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="logo"><a href="index.html"><img src="download (6).png" alt="logo"></a></div>
+        
+        <ul class="nav">
+            <li><a href="http://127.0.0.1:5501/index.html">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Supplement</a></li>
+            <li><a href="">Term&Condition</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+        <ul class="sidebar">
+            <h1>STAR GYM!</h1>
+            <div onclick=closesidebar() class="closesidebar"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="currentColor"><path d="M10.5859 12L2.79297 4.20706L4.20718 2.79285L12.0001 10.5857L19.793 2.79285L21.2072 4.20706L13.4143 12L21.2072 19.7928L19.793 21.2071L12.0001 13.4142L4.20718 21.2071L2.79297 19.7928L10.5859 12Z"></path></svg></div>
+            <li><a href="http://127.0.0.1:5501/index.html">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Supplement</a></li>
+            <li><a href="">Term&Condition</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+        <div id="icon">
+            <a target="_blank" href="https://www.instagram.com/stargymfitness1/"><i class="ri-instagram-line"></i></a>
+            <a target="_blank" href="https://www.facebook.com/vicky.vickylifter"><i class="ri-facebook-fill"></i></a>
+            <a target="_blank" href="https://maps.app.goo.gl/V6MJR4inUNQxCCon6"><i class="ri-map-pin-line"></i></a>
+            
+            </div>
+            <div id="contactdetails">
+                <p style="text-align: center;"><u>ContactUs</u></p>
+                <p>+91 8920865774</p>
+        </div>
+        <div onclick=showsidebar() class="humburger"><svg xmlns="http://www.w3.org/2000/svg" height="40" width="40" viewBox="0 0 24 24" fill="currentColor"><path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path></svg></div>
+        
+        </header>
+        <div id="fakeheader"></div>
+
+    <main>
+            <div class="strip">
+            <span>WELCOME TO STAR GYM!</span>
+            </div>
+        <div id="booknow">
+            <span>Book a free trial Today!</span>
+            <span>Try Before You Commit!</span>
+            <button>BOOKNOW!</button>
+        </div>
+    </main>
+    
+        <div class="section1">
+            <div class="bmicontainer">
+                <div class="bmiheader">
+                    <h1><i class="ri-line-chart-line"></i> BMI CALCULATOR</h1>
+                    <p>Understand your body mass index with our precision tool</p>
+                </div>
+                <div class="bmicalculator">
+                    <div class="input-section">
+                                <div class="input-group">
+                                    <label for="height"><i class="ri-ruler-line"></i> Height (cm)</label>
+                                    <input type="range" id="height" min="120" max="220" value="170">
+                                    <span class="value-display" id="height-value">170 cm</span>
+                                </div>
+                
+                                <div class="input-group">
+                                    <label for="weight"><i class="ri-weight-line"></i> Weight (kg)</label>
+                                    <input type="range" id="weight" min="30" max="150" value="70">
+                                    <span class="value-display" id="weight-value">70 kg</span>
+                                </div>
+                
+                                <button id="calculate-btn">
+                                    <i class="ri-calculator-line"></i> CALCULATE BMI
+                                </button>
+                    </div>
+                    <div class="result-section">
+                        <div class="bmi-visual">
+                            <div class="bmi-scale">
+                                <div class="indicator" id="bmi-indicator"></div>
+                            </div>
+                            <div class="scale-markers">
+                                <span>Underweight</span>
+                                <span>Healthy</span>
+                                <span>Overweight</span>
+                                <span>Obese</span>
+                            </div>
+                        </div>
+        
+                        <div class="bmi-result">
+                            <div class="result-circle" id="result-circle">
+                                <span id="bmi-value">00.0</span>
+                                <small>BMI</small>
+                            </div>
+                            <div class="result-category" id="result-category">
+                                <i class="ri-information-line"></i>
+                                <p>Enter your details</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="bmi-tips" id="bmi-tips">
+                    <h3><i class="ri-lightbulb-flash-line"></i> HEALTH TIPS</h3>
+                    <p>Calculate your BMI to get personalized recommendations</p>
+                </div>
+                </div>
+        </div>
+        <div class="section2">
+            <div class="container2">
+                <h1>STAR GYM PROGRAMS!</h1>
+                <p>Get fit with our expert trainers and state-of-the-art equipment</p>
+            </div>
+            <div class="wrapper">
+                
+            </div>
+        </div>
+            
+        <script src="script.js"></script>
+    
+    
+</body>
+</ht
